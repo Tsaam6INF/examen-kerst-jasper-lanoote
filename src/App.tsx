@@ -1,2 +1,11 @@
+import Info from "./components/Info";
+
 function App() {
-  return <p>Info</p><h1>titel</h1>
+  return (
+    <>
+      <Info />
+    </>
+  );
+}
+
+export default App;
